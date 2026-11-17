@@ -3,6 +3,7 @@ describe('Prueba 1: Verificar página de inicio', () => {
     // Visitar la página
     cy.visit('/');
     
+    //otra nota
     // Tomar captura de pantalla inicial
     cy.screenshot('01-pagina-inicio-cargada');
     
